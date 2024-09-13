@@ -9,7 +9,7 @@ namespace Campeonato_Amador
 {
     internal class Banco
     {
-        string Conexao = "Data Source=127.0.0.1; Initial Catalog=Campeonato_Amador; User Id=sa; Password=SqlServer2019!";
+        string Conexao = "string de conexão";
         Banco conectarBD = new Banco();
 
         public Banco()
